@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/freecodecamp-markdown-preview/static/css/main.6932535a.chunk.css",
+    "main.js": "/freecodecamp-markdown-preview/static/js/main.1e55d158.chunk.js",
+    "main.js.map": "/freecodecamp-markdown-preview/static/js/main.1e55d158.chunk.js.map",
+    "runtime-main.js": "/freecodecamp-markdown-preview/static/js/runtime-main.f3a487ff.js",
+    "runtime-main.js.map": "/freecodecamp-markdown-preview/static/js/runtime-main.f3a487ff.js.map",
+    "static/js/2.7dc137a9.chunk.js": "/freecodecamp-markdown-preview/static/js/2.7dc137a9.chunk.js",
+    "static/js/2.7dc137a9.chunk.js.map": "/freecodecamp-markdown-preview/static/js/2.7dc137a9.chunk.js.map",
+    "index.html": "/freecodecamp-markdown-preview/index.html",
+    "static/css/main.6932535a.chunk.css.map": "/freecodecamp-markdown-preview/static/css/main.6932535a.chunk.css.map",
+    "static/js/2.7dc137a9.chunk.js.LICENSE.txt": "/freecodecamp-markdown-preview/static/js/2.7dc137a9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f3a487ff.js",
+    "static/js/2.7dc137a9.chunk.js",
+    "static/css/main.6932535a.chunk.css",
+    "static/js/main.1e55d158.chunk.js"
+  ]
+}
