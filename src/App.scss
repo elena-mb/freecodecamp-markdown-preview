@@ -1,0 +1,101 @@
+        $lightest: #F2F2F2;
+        $light: #B2C7DA;
+        $medium: #2F5373;
+        $dark: #263463;
+        $darkest: #010D26;
+        * {
+            box-sizing: border-box;
+        }
+        
+        .App {
+            text-align: center;
+            background-color: $medium;
+            .App-header {
+                background-color: $medium;
+                min-height: 100vh;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                font-size: calc(10px + 1vmin);
+                color: $lightest;
+                .flex-container {
+                    display: flex;
+                    justify-content: space-around;
+                    .left .heading,
+                    .right .heading {
+                        background-color: $darkest;
+                        color: $lightest;
+                        width: 45vw;
+                        font-weight: bold;
+                        margin: 0 15px;
+                        padding: 10px 0;
+                    }
+                    #editor,
+                    #preview {
+                        width: 45vw;
+                        height: 80vh;
+                        margin: 0 15px;
+                    }
+                    #editor {
+                        padding: 0 1rem;
+                        font-size: calc(10px + 1vmin);
+                        background-color: $lightest;
+                        color: $darkest;
+                    }
+                    #preview {
+                        overflow-y: scroll;
+                        text-align: left;
+                        padding: 0 1rem;
+                        font-size: calc(10px + 1vmin);
+                        background-color: $light;
+                        color: $darkest;
+                        // MARKDOWN STYLES:
+                        a {
+                            color: $dark;
+                        }
+                        blockquote {
+                            border-left: 3px solid $medium;
+                            color: $medium;
+                            padding-left: 5px;
+                            margin-left: 25px;
+                        }
+                        >p>code {
+                            padding: 3px;
+                        }
+                        code {
+                            background: white;
+                            font-size: 0.875rem;
+                            font-weight: bold;
+                        }
+                        pre {
+                            display: block;
+                            overflow: auto;
+                            background: white;
+                            padding: 5px;
+                            line-height: 1.2;
+                        }
+                        h1 {
+                            border-bottom: 2px solid $darkest;
+                        }
+                        h2 {
+                            border-bottom: 1px solid $darkest;
+                        }
+                        table {
+                            border-collapse: collapse;
+                        }
+                        td,
+                        th {
+                            border: 2px solid $darkest;
+                            padding-left: 5px;
+                            padding-right: 5px;
+                        }
+                        img {
+                            display: block;
+                            max-width: 90%;
+                            margin: 0 auto;
+                        }
+                    }
+                }
+            }
+        }
